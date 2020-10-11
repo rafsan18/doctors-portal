@@ -6,7 +6,7 @@ const InfoCard = ({ info }) => {
     return (
         <div className="col-md-4 text-white info-card">
             <div
-                className={`d-flex justify-content-center info-${info.background} info-container`}
+                className={`d-flex justify-content-center align-items-center info-${info.background} info-container`}
             >
                 <div className="mr-3">
                     <FontAwesomeIcon
