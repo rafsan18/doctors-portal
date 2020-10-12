@@ -49,6 +49,7 @@ const BookAppointment = ({ date }) => {
             <div className="row px-5 mx-5">
                 {bookingData.map((booking) => (
                     <BookingCard
+                        date={date}
                         booking={booking}
                         key={booking.id}
                     ></BookingCard>
